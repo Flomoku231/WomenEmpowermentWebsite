@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Landing Page About Us styles */
+.AboutPage__Container{
+    background-image: url('../ProjectImages/Picture/AboutBackground.png');
+    width: 100%;
+    height: 290px;
+    justify-content: center;
+    align-items:center;
+    background-size: cover;
+}
+.AboutPage__Content{
+    width:95%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 0px 0px 60px;
+}
+#AboutPage-Head{
+    font-family: var(--font-family);
+    font-size: 25px;
+    color: var(--secondary-text-color);
+}
+#AboutPage-paragraph{
+    font-family: var(--secondary-font-family);
+    font-size: 21px;
+    color: var(--secondary-text-color);
+}

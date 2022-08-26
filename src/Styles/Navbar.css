@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.Navbar__Container{
+    width: 100%;
+    position: fixed;
+    height: 87px;
+    justify-content: space-between;
+    background-color: var(--secondary-text-color);
+    display: flex;
+    flex-direction: row;
+    padding: 5px 100px 5px 100px;
+    box-shadow: var(--primary-shadow)
+}
+#NavLogo{
+    cursor: pointer;
+}
+.Navbar__List-container{
+    width: 100%;
+    height: 87px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.Navbar__List-container>li{
+    justify-content: space-between;
+    font-family: var(--font-family);
+    font-size: 18px;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+}
+/* Button Styles */
+.Navbar__button>#button{
+    width: 90px ;
+    height: 40px ;
+    font-size: 16px ;
+    transform: translateY(18%);
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-text-color);
+    background-color: var(--secondary-text-color);
+    border: solid 1px var(--brand-color) ;
+}

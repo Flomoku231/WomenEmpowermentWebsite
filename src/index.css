@@ -1,10 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Edu+TAS+Beginner:wght@500&family=Inter&family=Poppins:wght@700&family=Rubik+Moonrocks&display=swap');
 
 :root{
+  /* Color Pallete */
   --brand-color: #800080;
   --primary-text-color: #000000;
   --secondary-text-color: #FFFFFF;
   --primary-gray-color: rgba(217, 217, 217, 0.34);
   --secondary-gray-color: rgba(217, 217, 217, 1);
+  --dark-gray-color: rgba(0, 0, 0, 0.75);
+
+  /* Fonts */
   --font-family: 'Poppins';
+  --secondary-font-family: 'Calibri';
+
+  /* Radius */
+  --primary-border-radius: 16px;
+  --secondary-border-radius: 25px;
+  --input-border-radius: 5px;
+
+  /* Shadows */
+  --primary-shadow:0px 4px 4px rgba(0, 0, 0, 0.05);
+  --secondary-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+html, body, #root{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }

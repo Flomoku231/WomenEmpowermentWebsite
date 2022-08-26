@@ -1,0 +1,16 @@
+.Button__container{
+    width: 100px;
+    height: 60px;
+}
+#button{
+    width: 125px;
+    height: 50px;
+    background-color: var(--brand-color);
+    border-radius: var(--primary-border-radius);
+    font-family: var(--font-family);
+    font-size: 17px;
+    color: var(--secondary-text-color);
+    border: 0px;
+    outline:0px;
+    cursor: pointer;
+}

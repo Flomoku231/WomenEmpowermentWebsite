@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.SubscribedBar__Container{
+    width: 100%;
+    height: 220px;
+    padding: 40px 0px 0px 0px;
+    background-image: url('../ProjectImages/Picture/SubscribedBackground.png');
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    align-items: center;
+}
+.SubscribedBar__Content{
+    width: 60%;
+    height: 150px;
+    border-radius: var(--primary-border-radius);
+    background-color: var(--secondary-text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.SubscribedBar__Content>h1{
+    font-family: var(--font-family);
+    font-size: 25px;
+    color: var(--primary-text-color);
+}
+.SubscribedBar__Content>p{
+    font-family: var(--secondary-font-family);
+    font-size: 19px;
+    color: var(--primary-text-color);
+}

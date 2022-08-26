@@ -1,0 +1,25 @@
+{
+    "ProgramsCardData": [
+        {
+            "id" : 1,
+            "ImageURL" : "/Images/EmpowermentImage1.png",
+            "Header" : "Leadership Education",
+            "Paragraph": "Women and men must enjoy equal opportunities, choices, capabilities, power and knowledge as equal citizens.",
+            "Button": "Learn More"
+        },
+        {
+            "id" : 2,
+            "ImageURL" : "/Images/ScholarshipImage1.png",
+            "Header" : "Scholarship Opportunities",
+            "Paragraph": "We Empower young women to apply their passion, education, skills, Networks and connections to their new careers",
+            "Button": "Learn More"
+        },
+        {
+            "id" : 3,
+            "ImageURL" : "/Images/JobImage.png",
+            "Header" : "Job Opportunities",
+            "Paragraph": "Empowerment help her secure internships and also job opportunities in her home country",
+            "Button": "Learn More"
+        }
+    ]
+}

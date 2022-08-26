@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.PriorityCard__container{
+    width: 500px;
+    padding: 20px;
+    height: 300px;
+    border: none;
+    background-color: var(--secondary-text-color);
+    border-radius:var(--secondary-border-radius);
+
+}
+#PriorityCard_head{
+    font-family: var(--font-family);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#PriorityCardd_paragraph{
+    font-family: var(--secondary-font-family);
+    font-size: 18px;
+}
+#ReadMore{
+    color: var(--brand-color);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}

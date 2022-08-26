@@ -1,4 +1,9 @@
-h1{
-    color: var(--secondary-gray-color);
-    font-family: var(--font-family) ;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.LandingPage__Container{
+    width: 100%;
+    height: 100%;
 }

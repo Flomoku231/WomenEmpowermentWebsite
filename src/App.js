@@ -1,11 +1,17 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import LandingPage from './Pages/LandingPage';
+import LandingPage from './Pages/LandingPage/LandingPage';
+import SubscribedForm from './Pages/SubscribedForm';
+
 
 function App() {
   return (
-    <div className="App">
-      <LandingPage/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<LandingPage/>} path='/' />
+        <Route element={ <SubscribedForm/> } path='/SubscribedForm' />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
