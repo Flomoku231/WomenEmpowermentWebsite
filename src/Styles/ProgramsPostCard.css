@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.ProgramPostCard__Container{
+    max-width: 40%;
+    height: 50%;
+}
+#PostImage{
+    max-width: 100%;
+    max-height: 50%;
+}
+#ProgramPostCard__Title{
+    font-size: 20px;
+    font-family: var(--font-family);
+    margin: 10px 0px 10px 0px;
+}
+#ProgramPostCard__Paragraph{
+    font-size: 18px;
+    font-family: var(--secondary-font-family);
+}
+#ProgramPostCard__Lernmore{
+    font-family: var(--secondary-font-family);
+    font-size: 20px;
+    color: var(--brand-color);
+    cursor: pointer;
+    font-weight: bold;
+}
+/* Video Post Cards */
+.ProgramPostCard2__Container{
+    width: 100%;
+    height: 100%;
+}
+.ProgramPostCard2__Content{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    align-items: center;
+}
+.ProgramPostCard2__image{
+    max-width: 40%;
+}
+.ProgramPostCard2__Text{
+    max-width: 39%;
+}
+#image{
+    max-width: 95%;
+    border-radius: var(--primary-border-radius);
+    height: 100%;
+}
+#Text__Head{
+    font-size: 20px;
+    font-family: var(--font-family);
+}
+#Text__Paragraph{
+    font-size: 18px;
+    font-family: var(--secondary-font-family);
+}
+
+/* Making this Responsive */
+@media all and (max-width: 700px){
+    .ProgramPostCard__Container {
+        max-width: 85%;
+    }
+    .ProgramPostCard2__image {
+        max-width: 85%;
+    }
+    .ProgramPostCard2__Text {
+        max-width: 85%;
+    }
+}

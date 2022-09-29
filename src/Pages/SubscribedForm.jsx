@@ -32,7 +32,8 @@ const SubscribedForm = () => {
                     type='submit'
                 />
             </form>
-        </div>
+        </div><br/><br/>
+
     </div>
   )
 }

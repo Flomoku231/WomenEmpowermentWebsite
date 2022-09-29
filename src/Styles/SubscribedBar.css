@@ -36,3 +36,31 @@
     font-size: 19px;
     color: var(--primary-text-color);
 }
+/* Making This Page Responsive */
+
+@media all and (max-width: 900px){
+    .SubscribedBar__Content>h1 {
+        font-size: 20px;
+    }
+    .SubscribedBar__Content>p {
+        font-size: 17px;
+    }
+    .SubscribedBar__Content {
+        width: 75%;
+        padding: 15px;
+    }
+}
+@media all and (max-width: 500px){
+    .SubscribedBar__Content {
+    width: 85%;
+    padding: 10px;
+}
+}
+@media all and (max-width: 400px){
+    .SubscribedBar__Content>h1 {
+        font-size: 16px;
+    }
+    .SubscribedBar__Content>p {
+        font-size: 15px;
+    }
+}

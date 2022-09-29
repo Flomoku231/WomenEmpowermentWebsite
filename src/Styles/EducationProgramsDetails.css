@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.EducationProgramsDetails__Container{
+    width: 100%;
+    height: 100%;
+}
+.Details__Container--content, .OpportunitiesDetails{
+    width: 80%;
+    margin: auto;
+    display:flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.Details__Container--content{
+    padding: 100px 5px 5px 5px; 
+}
+#News,#Update{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+}
+.ScholarshipLinks{
+    margin-bottom: 15px;
+}
+#DetailsParagraph,.ScholarshipLinks>li{
+    font-family: var(--secondary-font-family);
+    gap: 5px;
+    font-size: 20px;
+}
+#News{
+     color: var(--brand-color);
+}
+#HeaderTime{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 600;
+}
+#HeaderJoin{
+    font-size: 26px;
+}
+
+@media all and (max-width: 500px){
+    .Details__Container--content {
+        width: 88%;
+    }
+    #HeaderJoin {
+        font-size: 20px;
+        text-align: center;
+    }
+    #HeaderTime {
+        font-size: 25px;
+    }
+}

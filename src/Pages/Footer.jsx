@@ -13,7 +13,7 @@ const Footer = () => {
     <div className="Footer__Container">
       <div className="Footer__Content">
         <div className="leftContent">
-          <img src={InHerPowerLogo} alt="" />
+          <img id="Footer_Logo" src={InHerPowerLogo} alt="" />
           <p>
             Copyright <img id="CopyrightIcon" src={CopyrightSymbol} alt="" />
             2022 All Rights Received.

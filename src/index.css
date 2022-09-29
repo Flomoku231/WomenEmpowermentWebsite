@@ -3,6 +3,8 @@
 :root{
   /* Color Pallete */
   --brand-color: #800080;
+  --brand-secondary-color: rgba(226, 200, 226, 1);
+  --values-background-color: rgba(222, 213, 213, 1);
   --primary-text-color: #000000;
   --secondary-text-color: #FFFFFF;
   --primary-gray-color: rgba(217, 217, 217, 0.34);

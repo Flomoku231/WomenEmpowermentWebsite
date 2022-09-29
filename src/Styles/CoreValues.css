@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Container__Contents{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+#Contents__Title{
+    font-size: 21px;
+    margin-bottom: 10px;
+    font-family: var(--font-family);
+}
+#Contents__Paragraph{
+    font-size: 19px;
+    font-family: var(--secondary-font-family);
+}

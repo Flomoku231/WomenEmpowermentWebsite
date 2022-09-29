@@ -1,0 +1,37 @@
+.JobDetails__Container{
+    width: 100%;
+    height: 100%;
+}
+.JobDetails__Content, .Second--text{
+    width: 80%;
+    margin: auto;
+}
+.JobDetails__Content{
+    padding: 120px 2px 0px 2px;
+}
+.Second--text{
+    padding: 10px 2px 20px 2px;
+}
+#JobDetailsHeader{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 600;
+}
+#JobDetailsParagraph{
+    font-family: var(--secondary-font-family);
+    gap: 5px;
+    font-size: 20px;
+}
+#JobImageId{
+    border-radius: var(--secondary-border-radius);
+}
+
+@media all and (max-width: 500px){
+    #JobDetailsHeader {
+        font-size: 20px;
+    }
+    .JobDetails__Content, .Second--text {
+        width: 85%;
+    }
+}

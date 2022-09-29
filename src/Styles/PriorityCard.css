@@ -27,3 +27,46 @@
     font-weight: bold;
     cursor: pointer;
 }
+/* Making this page responsive */
+@media all and (max-width: 100px){
+    .PriorityCard__container {
+        width: 500px;
+        height: 330px;
+    }
+}
+@media all and (max-width: 900px){
+    #PriorityCardd_paragraph {
+    font-size: 16px;
+}
+}
+@media all and (max-width: 800px){
+    .PriorityCard__container {
+        height: 340px;
+    }
+}
+@media all and (max-width: 700px){
+    .PriorityCard__container {
+        height: 260px;
+    }
+}
+@media all and (max-width: 500px){
+    .PriorityCard__container {
+        height: 300px;
+        width: 370px;
+    }
+}
+@media all and (max-width: 400px){
+    .PriorityCard__container {
+        height: 325px;
+        width: 320px;
+    }
+    #PriorityCard_head {
+        font-size: 16px;
+    }
+}
+@media all and (max-width: 330px){
+    .PriorityCard__container {
+        height: 360px;
+        width: 280px;
+    }
+}
